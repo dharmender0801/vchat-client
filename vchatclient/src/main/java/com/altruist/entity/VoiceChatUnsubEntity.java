@@ -104,7 +104,7 @@ public class VoiceChatUnsubEntity {
     @Column(name = "GENDER_UPDATE_DATE")
     private Date genderUpdateDate;
 
-    @Column(name = "gender_update_date")
+    @Column(name = "gender_update_mode")
     private String genderUpdateMode;
 
     @Column(name = "VENDOR_ID", columnDefinition = "utf8mb4_0900_ai_ci")
